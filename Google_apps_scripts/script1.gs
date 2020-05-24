@@ -65,7 +65,7 @@ function doGet(e){
     // if the parameter name= timestamp, we can use other method when i === 0 
     if (numbers_sheet_headers[i] === "Timestamp")
     {
-      // date var , local time name
+      // date day , local time exmple: Sun May 24 2020, 10:15:03 PM
       valure_apprend = current_date.toDateString() + ", " + current_date.toLocaleTimeString();
     }
 
