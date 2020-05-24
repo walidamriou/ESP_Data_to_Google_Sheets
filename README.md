@@ -10,3 +10,6 @@ __3- use the code from Google_apps_scripts/script1.gs , it is general code, and 
 
 __4- if you use data_from_esp32.ods file you can test by put the link that get it after publish the app script with queries (?id=data_s_1&data1=10&data2=20&data3=30&data4=40) in your browser, you need to give the code permissions in first use__ 
 https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&data1=10&data2=20&data3=30&data4=40
+
+### References:
+https://developers.google.com/apps-script/reference/spreadsheet/sheet
