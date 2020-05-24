@@ -1,6 +1,12 @@
 # ESP Data to Google Sheets
 Upload data to Google Sheets from  Espressif Systems ESP32 &amp; ESP8266 
 
+### POST vs GET method
+__POST__ sumbits data (include in the body) to be processed to the indentified resource, the effect of this method is create a new resource or update existing resource or both.
+__GET__ requests a representation of the specified resource.
+In general, GET is used to retrieve remote data, and POST is used to insert/update remote data, because GET can used arvitrily by robots (secripts) or crawlers, and for our work can make a problem with our data in the sheet. But just because we learn, we use the two methods to send the data to Google sheets but __The security of the implementation is your work__.
+
+### by GET method
 ### Google drive:  
 __1- Create a Google Sheets file (https://docs.google.com/spreadsheets/?usp=mkt_sheets) or you can use data_from_esp32.ods file from /sheets by upload it to your Google drive.__  
 __2- open the Google sheets file and go to Tools -> Script editor to use Google Apps Script.__
