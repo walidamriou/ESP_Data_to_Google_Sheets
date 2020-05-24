@@ -13,3 +13,5 @@ https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&d
 
 ### References:
 https://developers.google.com/apps-script/reference/spreadsheet/sheet
+https://developers.google.com/apps-script/guides/projects
+
