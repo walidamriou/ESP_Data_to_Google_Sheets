@@ -14,4 +14,6 @@ https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&d
 ### References:
 https://developers.google.com/apps-script/reference/spreadsheet/sheet
 https://developers.google.com/apps-script/guides/projects
+https://gist.github.com/mhawksey/1276293/eb4db55a7559d9ac4a2600acb60b0af5f9a347fc
+https://medium.com/@shishir_dey/upload-data-to-google-sheet-with-an-esp32-and-some-scripting-2d8b0ccbc833
 
