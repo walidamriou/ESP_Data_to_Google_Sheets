@@ -125,11 +125,14 @@ void loop() {
 
   //We check the current connection status (if the device connected)
  if ((WiFi.status() == WL_CONNECTED)) { 
-    
- 
+    Serial.println("The device connected");
+
+    // create http object from HTTPClient class
     HTTPClient http;
- 
-    http.begin("https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&data1=10&data2=20&data3=30&data4=40", root_ca); //Specify the URL and certificate
+    
+    //use begin function from HTTPClient
+    //Specify the URL and certificate
+    http.begin("https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&data1=10&data2=20&data3=30&data4=40", root_ca); 
     int httpCode = http.GET();                                                  //Make the request
  
     if (httpCode > 0) { //Check for the returning code
