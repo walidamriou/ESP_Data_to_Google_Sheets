@@ -26,6 +26,15 @@ use the code in: [ESP_code/main_https_get_by_arduino_platfomio.c](https://github
 ##### -- ESP-IDF: 
 It will be published later
 
+### Tools used:
+#### Software
+- VScode  
+- ESP-IDF  
+- Platformio  
+
+#### Hardware
+- ESP Lolin32    
+
 ### References:
 [Reference 1](https://developers.google.com/apps-script/reference/spreadsheet/sheet "Reference 1") , 
 [Reference 2](https://developers.google.com/apps-script/guides/projects "Reference 2") , 
