@@ -1,5 +1,5 @@
-# ESP Data to Google Sheets
-Upload data to Google Sheets from  Espressif Systems ESP32 &amp; ESP8266 
+# Espressif Systems ESP32 or ESP8266 board Data to Google Sheets
+Upload data to Google Sheets from  Espressif Systems ESP32 or ESP8266 board
 <p align="center">
   <img width="50%" height="50%" src="https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/Screenshots/post_googlesheet_esp.jpg">
 </p>
