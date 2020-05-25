@@ -1,3 +1,12 @@
+/* 
+ ******************************************************************** 
+  ESP Data to Google Sheets project
+  Upload data to Google Sheets from Espressif Systems ESP32 & ESP8266
+  by Walid Amriou
+  Github : https://github.com/walidamriou/ESP_Data_to_Google_Sheets
+ ******************************************************************** 
+*/
+
 #include <Arduino.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
