@@ -19,21 +19,22 @@ void setup() {
   Serial.begin(9600);
   delay(1000);
  
+ //Wifi part
   WiFi.begin(ssid, password); 
- 
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.println("Connecting to WiFi..");
   }
- 
   Serial.println("Connected to the WiFi network");
+ //end wifi part
+
 }
 
 /*
- Change the certificate (don't use this, you need one)
- to get new certificate, use the url of the request, make a request and
- get it from you browser. if you don't know how to get it, just go to
- google and search about "get certificate https from brower" :D
+ we use this certificate to support Https but you need to Change it, to get new 
+ certificate, use the url of the request, make a request and get it from your 
+ browser. if you don't know how to get it, just go to google (or your search engine :p) 
+ and search about "get certificate https from brower" :D
 */
 const char* root_ca= \
 "-----BEGIN CERTIFICATE-----\n" \
@@ -121,8 +122,10 @@ const char* root_ca= \
 "-----END CERTIFICATE-----\n";
 
 void loop() {
- 
-  if ((WiFi.status() == WL_CONNECTED)) { //Check the current connection status
+
+  //We check the current connection status (if the device connected)
+ if ((WiFi.status() == WL_CONNECTED)) { 
+    
  
     HTTPClient http;
  
