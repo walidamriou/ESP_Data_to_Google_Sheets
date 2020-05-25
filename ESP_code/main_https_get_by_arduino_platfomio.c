@@ -130,10 +130,11 @@ void loop() {
     // create http object from HTTPClient class
     HTTPClient http;
     
-    //use begin function from HTTPClient
-    //Specify the URL and certificate
+    //Specify the URL and certificate of the request
     http.begin("https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&data1=10&data2=20&data3=30&data4=40", root_ca); 
-    int httpCode = http.GET();                                                  //Make the request
+    
+    //Make the request
+    int httpCode = http.GET();                                                  
  
     if (httpCode > 0) { //Check for the returning code
  
