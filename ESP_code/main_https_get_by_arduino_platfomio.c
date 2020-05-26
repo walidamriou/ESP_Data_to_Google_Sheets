@@ -14,29 +14,13 @@
 const char* ssid = "your_ssid_wifi_here";
 const char* password =  "your_password_wifi_here";
  
-void setup() {
- 
-  Serial.begin(9600);
-  delay(1000);
- 
- //Wifi part
-  WiFi.begin(ssid, password); 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.println("Connecting to WiFi..");
-  }
-  Serial.println("Connected to the WiFi network");
- //end wifi part
-
-}
-
-/*
+ /*
  we use this certificate to support Https but you need to Change it, to get new 
  certificate, use the url of the request, make a request and get it from your 
  browser. if you don't know how to get it, just go to google (or your search engine :p) 
  and search about "get certificate https from brower" :D
 */
-const char* root_ca= \
+const char* Https_certificate= \
 "-----BEGIN CERTIFICATE-----\n" \
 "MIIPADCCDeigAwIBAgIQMaF+AzZIr7UIAAAAAD6+AjANBgkqhkiG9w0BAQsFADBC\n" \
 "MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw\n" \
@@ -121,6 +105,24 @@ const char* root_ca= \
 "fmI/Og==\n" \
 "-----END CERTIFICATE-----\n";
 
+void setup() {
+ 
+  Serial.begin(9600);
+  delay(1000);
+ 
+ //Wifi part
+  WiFi.begin(ssid, password); 
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.println("Connecting to WiFi..");
+  }
+  Serial.println("Connected to the WiFi network");
+ //end wifi part
+
+}
+
+
+
 void loop() {
 
   //We check the current connection status (if the device connected)
@@ -131,7 +133,7 @@ void loop() {
     HTTPClient http;
     
     //Specify the URL and certificate of the request
-    http.begin("https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&data1=10&data2=20&data3=30&data4=40", root_ca); 
+    http.begin("https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&data1=10&data2=20&data3=30&data4=40", Https_certificate); 
     
     //Make the request
     int httpCode = http.GET();                                                  
