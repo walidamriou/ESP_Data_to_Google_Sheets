@@ -22,7 +22,7 @@ https://script.google.com/macros/s/your_id_of_the_script_here/exec?id=data_s_1&d
 
 ##### ESP board:  
 ##### -- Platfomio with Arduino: 
-use the code in: [ESP_code/main_https_get_by_arduino_platfomio.c](https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/ESP_code/main_https_get_by_arduino_platfomio.c "code") the comments in the code will help you.  
+use the code in: [ESP_code/main_https_get_by_arduino_platformio.c](https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/ESP_code/main_https_GET_by_arduino_platformio.c "code") the comments in the code will help you.  
 ##### -- ESP-IDF: 
 It will be published later
 
