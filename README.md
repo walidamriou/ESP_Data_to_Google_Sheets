@@ -1,5 +1,8 @@
-# ESP Data to Google Sheets
-Upload data to Google Sheets from  Espressif Systems ESP32 &amp; ESP8266 
+# Espressif Systems ESP32 or ESP8266 board Data to Google Sheets
+Upload data to Google Sheets from  Espressif Systems ESP32 or ESP8266 board
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/Screenshots/post_googlesheet_esp.jpg">
+</p>
 
 ### POST vs GET method
 __POST__ sumbits data (include in the body) to be processed to the indentified resource, the effect of this method is create a new resource or update existing resource or both.
@@ -23,6 +26,15 @@ use the code in: [ESP_code/main_https_get_by_arduino_platfomio.c](https://github
 ##### -- ESP-IDF: 
 It will be published later
 
+### Tools used:
+#### Software
+- VScode  
+- ESP-IDF  
+- Platformio  
+
+#### Hardware
+- ESP Lolin32    
+
 ### References:
 [Reference 1](https://developers.google.com/apps-script/reference/spreadsheet/sheet "Reference 1") , 
 [Reference 2](https://developers.google.com/apps-script/guides/projects "Reference 2") , 
@@ -31,5 +43,7 @@ It will be published later
 [Reference 5](https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get "Reference 5") , 
 [Reference 6](https://www.w3schools.com/tags/ref_httpmethods.asp "Reference 6") , 
 [Reference 7](https://techtutorialsx.com/2017/11/18/esp32-arduino-https-get-request/ "Reference 7") ,
-[Reference 8](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/protocols/esp_http_client.html "Reference 8")
+[Reference 8](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/protocols/esp_http_client.html "Reference 8") , 
+[Reference 9](https://techtutorialsx.com/2016/07/21/esp8266-post-requests/ "Reference 9")
+
 
