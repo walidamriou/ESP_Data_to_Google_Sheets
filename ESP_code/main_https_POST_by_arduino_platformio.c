@@ -14,6 +14,7 @@
 const char* ssid = "your_ssid_wifi_here";
 const char* password =  "your_password_wifi_here";
 
+
 /*
  we use this certificate to support Https but you need to Change it, to get new 
  certificate, use the url of the request, make a request and get it from your 
@@ -128,6 +129,7 @@ void loop() {
 
    HTTPClient http;    
    http.addHeader("Content-Type", "text/plain");  
+   http.begin("url_here"); 
    int httpCode = http.POST("Message from ESP32");   
    String payload = http.getString();                  
    Serial.println(httpCode);   
