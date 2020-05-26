@@ -44,4 +44,6 @@ It will be published later
 [Reference 6](https://www.w3schools.com/tags/ref_httpmethods.asp "Reference 6") , 
 [Reference 7](https://techtutorialsx.com/2017/11/18/esp32-arduino-https-get-request/ "Reference 7") ,
 [Reference 8](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/protocols/esp_http_client.html "Reference 8")
+[Reference 9](https://techtutorialsx.com/2016/07/21/esp8266-post-requests/ "Reference 9")
+
 
