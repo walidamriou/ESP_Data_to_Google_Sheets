@@ -26,6 +26,15 @@ use the code in: [ESP_code/main_https_get_by_arduino_platfomio.c](https://github
 ##### -- ESP-IDF: 
 It will be published later
 
+### by POST method
+##### Google drive:  
+
+##### ESP board:  
+##### -- Platfomio with Arduino: 
+use the code in: [ESP_code/main_https_POST_by_arduino_platformio.c](https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/ESP_code/main_https_POST_by_arduino_platformio.c "code") the comments in the code will help you.  
+##### -- ESP-IDF: 
+
+
 ### Tools used:
 #### Software
 - VScode  
