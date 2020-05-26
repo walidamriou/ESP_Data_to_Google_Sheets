@@ -19,18 +19,18 @@ void setup() {
   Serial.begin(9600);
   delay(1000);
 
+ //Wifi part
   WiFi.begin(ssid, password); 
- 
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.println("Connecting to WiFi..");
   }
- 
   Serial.println("Connected to the WiFi network");
+ //end wifi part
 
 }
 
-const char* root_ca= \
+const char* Https_certificate= \
 "-----BEGIN CERTIFICATE-----\n" \
 "MIIPADCCDeigAwIBAgIQMaF+AzZIr7UIAAAAAD6+AjANBgkqhkiG9w0BAQsFADBC\n" \
 "MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw\n" \
