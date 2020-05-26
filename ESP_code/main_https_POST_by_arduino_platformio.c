@@ -14,22 +14,12 @@
 const char* ssid = "your_ssid_wifi_here";
 const char* password =  "your_password_wifi_here";
 
-void setup() {
-
-  Serial.begin(9600);
-  delay(1000);
-
- //Wifi part
-  WiFi.begin(ssid, password); 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.println("Connecting to WiFi..");
-  }
-  Serial.println("Connected to the WiFi network");
- //end wifi part
-
-}
-
+/*
+ we use this certificate to support Https but you need to Change it, to get new 
+ certificate, use the url of the request, make a request and get it from your 
+ browser. if you don't know how to get it, just go to google (or your search engine :p) 
+ and search about "get certificate https from brower" :D
+*/
 const char* Https_certificate= \
 "-----BEGIN CERTIFICATE-----\n" \
 "MIIPADCCDeigAwIBAgIQMaF+AzZIr7UIAAAAAD6+AjANBgkqhkiG9w0BAQsFADBC\n" \
@@ -114,6 +104,23 @@ const char* Https_certificate= \
 "3UudypCAmK9152l2JTF0PgWd8TtZcXVmO9gvynqty1VW8kOYf9gHRe57LKCfVe3t\n" \
 "fmI/Og==\n" \
 "-----END CERTIFICATE-----\n";
+
+
+void setup() {
+
+  Serial.begin(9600);
+  delay(1000);
+
+ //Wifi part
+  WiFi.begin(ssid, password); 
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.println("Connecting to WiFi..");
+  }
+  Serial.println("Connected to the WiFi network");
+ //end wifi part
+
+}
 
 void loop() {
 
