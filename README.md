@@ -28,12 +28,13 @@ It will be published later
 
 ### by POST method
 ##### Google drive:  
+The same notes of "by GET method" but use [/Google_apps_scripts/Google_App_Scripts_POST_receive_for_project.gs](https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/Google_apps_scripts/Google_App_Scripts_POST_receive_for_project.gs "code") 
 
 ##### ESP board:  
 ##### -- Platfomio with Arduino: 
 use the code in: [ESP_code/main_https_POST_by_arduino_platformio.c](https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/ESP_code/main_https_POST_by_arduino_platformio.c "code") the comments in the code will help you.  
 ##### -- ESP-IDF: 
-
+It will be published later
 
 ### Tools used:
 #### Software
@@ -41,7 +42,7 @@ use the code in: [ESP_code/main_https_POST_by_arduino_platformio.c](https://gith
 - ESP-IDF  
 - Platformio  
 - https://requestcatcher.com Request Catcher will create a subdomain on which you can test an application. All requests sent to any path on the subdomain are forwarded to the browser in real time. I use it as Https server requests for test. 
-
+- Postman 
 
 #### Hardware
 - ESP Lolin32    
