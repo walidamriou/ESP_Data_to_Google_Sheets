@@ -3,11 +3,14 @@ Upload data to Google Sheets from  Espressif Systems ESP32 or ESP8266 board
 <p align="center">
   <img width="50%" height="50%" src="https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/Screenshots/post_googlesheet_esp.jpg">
 </p>
+--------------------  
 
 ### POST vs GET method
 __POST__ sumbits data (include in the body) to be processed to the indentified resource, the effect of this method is create a new resource or update existing resource or both.
 __GET__ requests a representation of the specified resource.
 In general, GET is used to retrieve remote data, and POST is used to insert/update remote data, because GET can used arvitrily by robots (secripts) or crawlers, and for our work can make a problem with our data in the sheet. But just because we learn, we use the two methods to send the data to Google sheets but __The security of the implementation is your work__.
+
+--------------------  
 
 ### by GET method
 ##### Google drive:  
@@ -26,6 +29,8 @@ use the code in: [ESP_code/main_https_get_by_arduino_platformio.c](https://githu
 ##### -- ESP-IDF: 
 It will be published later
 
+--------------------  
+
 ### by POST method
 ##### Google drive:  
 The same notes of "by GET method" but use [/Google_apps_scripts/Google_App_Scripts_POST_receive_for_project.gs](https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/Google_apps_scripts/Google_App_Scripts_POST_receive_for_project.gs "code") 
@@ -35,6 +40,8 @@ The same notes of "by GET method" but use [/Google_apps_scripts/Google_App_Scrip
 use the code in: [ESP_code/main_https_POST_by_arduino_platformio.c](https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/ESP_code/main_https_POST_by_arduino_platformio.c "code") the comments in the code will help you.  
 ##### -- ESP-IDF: 
 It will be published later
+
+--------------------  
 
 ### Tools used:
 #### Software
@@ -47,6 +54,7 @@ It will be published later
 #### Hardware
 - ESP Lolin32    
 
+--------------------  
 
 ### References:
 [Reference 1](https://developers.google.com/apps-script/reference/spreadsheet/sheet "Reference 1") , 
