@@ -97,7 +97,7 @@ void loop() {
  if(WiFi.status()== WL_CONNECTED){   
 
    HTTPClient http;    
-   http.begin("url_here"); 
+   http.begin("url_here", Https_certificate); 
    http.addHeader("Content-Type", "application/x-www-form-urlencoded");
    auto httpCode = http.POST("id=data_s_1&data1=10&data2=20&data3=30&data4=40"); 
    String payload = http.getString();                  
