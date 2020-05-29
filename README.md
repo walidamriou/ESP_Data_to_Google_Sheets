@@ -3,7 +3,14 @@ Upload data to Google Sheets from  Espressif Systems ESP32 or ESP8266 board
 <p align="center">
   <img width="50%" height="50%" src="https://github.com/walidamriou/ESP_Data_to_Google_Sheets/blob/master/Screenshots/post_googlesheet_esp.jpg">
 </p>
+
 --------------------  
+
+Reasons to Use Google Sheets for IoT Sensor Data
+[ESP_code/main_https_POST_by_arduino_platformio.c](https://dzone.com/articles/reasons-to-use-google-sheets-for-iot-sensor-data "dzone Article")
+
+--------------------  
+
 
 ### POST vs GET method
 __POST__ sumbits data (include in the body) to be processed to the indentified resource, the effect of this method is create a new resource or update existing resource or both.
