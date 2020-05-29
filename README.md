@@ -7,7 +7,13 @@ Upload data to Google Sheets from  Espressif Systems ESP32 or ESP8266 board
 --------------------  
 
 Reasons to Use Google Sheets for IoT Sensor Data
-[ESP_code/main_https_POST_by_arduino_platformio.c](https://dzone.com/articles/reasons-to-use-google-sheets-for-iot-sensor-data "dzone Article")
+- Logging sensor data from your embedded devices to Google Sheets is simple.
+- Can mixte between data from your sensors and another source.
+- Easy make a data visualization like a graph,... etc.
+- Embed your graphed data on the web.
+- Manipulate and analyze your data with default functions or by javascript functions (Apps Script).
+- You can check in on your data in the mobile by google sheets app.
+- You can make conditions actions with the incoming data (by Apps script or javascript). 
 
 --------------------  
 
@@ -72,6 +78,8 @@ It will be published later
 [Reference 6](https://www.w3schools.com/tags/ref_httpmethods.asp "Reference 6") , 
 [Reference 7](https://techtutorialsx.com/2017/11/18/esp32-arduino-https-get-request/ "Reference 7") ,
 [Reference 8](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/protocols/esp_http_client.html "Reference 8") , 
-[Reference 9](https://techtutorialsx.com/2016/07/21/esp8266-post-requests/ "Reference 9")
+[Reference 9](https://techtutorialsx.com/2016/07/21/esp8266-post-requests/ "Reference 9") , 
+[Reference 10](https://dzone.com/articles/reasons-to-use-google-sheets-for-iot-sensor-data "Reference 10")
+
 
 
