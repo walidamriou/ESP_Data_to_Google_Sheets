@@ -69,6 +69,11 @@ It will be published later
 
 --------------------  
 
+### extra
+IoT dashboard html by google sheets data
+[Article 1](https://davidwalsh.name/js-charting-google-sheets "Article 1") , 
+
+
 ### References:
 [Reference 1](https://developers.google.com/apps-script/reference/spreadsheet/sheet "Reference 1") , 
 [Reference 2](https://developers.google.com/apps-script/guides/projects "Reference 2") , 
