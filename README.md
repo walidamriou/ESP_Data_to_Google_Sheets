@@ -73,6 +73,8 @@ It will be published later
 IoT dashboard html by google sheets data
 [Article 1](https://davidwalsh.name/js-charting-google-sheets "Article 1") , 
 
+--------------------
+
 
 ### References:
 [Reference 1](https://developers.google.com/apps-script/reference/spreadsheet/sheet "Reference 1") , 
