@@ -14,6 +14,10 @@ Upload data to Google Sheets from  Espressif Systems ESP32 or ESP8266 board
 - Manipulate and analyze your data with default functions or by javascript functions (Apps Script).
 - You can check in on your data in the mobile by google sheets app.
 - You can make conditions actions with the incoming data (by Apps script or javascript). 
+ 
+ #### Note:  
+ Apps Script services impose daily quotas and hard limitations on some features. If you exceed a quota or limitation, your script throws an exception and execution terminates.
+See current Quotas here: https://developers.google.com/apps-script/guides/services/quotas#current_quotas  
 
 --------------------  
 
