@@ -77,8 +77,10 @@ It will be published later
 IoT dashboard html by google sheets data
 [Article 1](https://davidwalsh.name/js-charting-google-sheets "Article 1") , 
 
----------------------
 
+### Copyright © 2020 Walid Amriou  
+
+the software or Code or Scripts or any files in this source is provided "as is" and the author disclaims all warranties with regard to this files including all implied warranties of merchantability and fitness. in no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software or code or scripts or any files in this source.
 
 ### References:
 [Reference 1](https://developers.google.com/apps-script/reference/spreadsheet/sheet "Reference 1") , 
